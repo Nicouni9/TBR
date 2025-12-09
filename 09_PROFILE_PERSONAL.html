@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>TOP BOARD RIDERS | Dedicated to the world's top board riders</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--start top bar-->
+<div class="topBar" data-spy="affix">
+	<div class="container">
+		<div class="pull-left">
+			<!--link home page-->
+			<a href="http://www.theboardriders.com/"><span class="fa fa-home"></span></a>
+			<!--modal confirm logout-->
+			<a href="#" class="modalConfirmLogout"><span class="fa fa-lock"></span></a>
+			<!--link edit profile page-->
+			<a href="10_PROFILE_EDIT.html" class="mobHide"><span class="fa fa-edit"></span></a>
+			<!--mailto invite a friend-->
+			<a href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site http://www.theboardriders.com/." class="mobHide"><span class="fa fa-share"></span></a>
+		</div>
+		<div class="pull-right">
+			<!--link profile - img size 440x440-->
+			<a href="09_PROFILE_PERSONAL.html"><img src="img/demo/440_440.jpg" alt="" /></a>
+			<!--modal notification new shaka-->
+			<div class="btn-group">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/icon/shaka_w.png" alt="" /><span>19</span></button>
+				<ul class="dropdown-menu dropdown-menu-right noticeList">
+					<li class="title">19 New shaka</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has added a new shaka to your <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has added a new shaka to your <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has added a new shaka to your <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has added a new shaka to your <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has added a new shaka to your <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has added a new shaka to your <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has added a new shaka to your <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--modal notification new followers-->
+			<div class="btn-group">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/icon/follower_w.png" alt="" /><span>19</span></button>
+				<ul class="dropdown-menu dropdown-menu-right noticeList">
+					<li class="title">19 New followers</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has started following you
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has started following you
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has started following you
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has started following you
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has started following you
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has started following you
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has started following you
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+			<!--modal notification new comment-->
+			<div class="btn-group">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/icon/read_w.png" alt="" /><span>19</span></button>
+				<ul class="dropdown-menu dropdown-menu-right noticeList">
+					<li class="title">19 New comments</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has commented your photo <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has commented your photo <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has commented your photo <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has commented your photo <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/demo/440_440.jpg" alt="" />
+						</div>
+						<div class="info">
+							<a href="08_PROFILE_VISITED.html">Nome Cognome</a> has commented your photo <a href="#" class="modalViewPhoto">photo</a>: <span class="disc">discalia della foto - lorem ipsum is a simple dummy text</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--end top bar-->
+<div class="header">
+	<div class="container">
+		<!--logo-->
+		<div class="pull-left">
+			<a href="http://www.theboardriders.com/"><img src="img/logo.png" alt="" /></a>
+		</div>
+		<!--banner 728x90-->
+		<div class="pull-right">
+			<a href="#"><img src="img/demo/banner_728_90.jpg" alt="" /></a>
+		</div>
+	</div>
+</div>
+<!--start content-->
+<div class="container">
+	<div class="row">
+		<!--start left col-->
+		<div class="col-md-3 col-sm-4">
+			<!--start user info-->
+			<div class="userInfo">
+				<!--profile picture + name + country-->
+				<div class="fImg">
+					<img class="img-responsive" alt="" src="img/demo/440_440.jpg">
+					<div class="fImgInner">
+						<div class="faUser">Nome cognome</div>
+						<div class="faCountry">Country</div>
+					</div>
+				</div>
+				<!--totale follower + add as buddy-->
+				<div class="fEdit">
+					<!--link edit profile-->
+					<a class="myBtn" href="10_PROFILE_EDIT.html"><span class="fa fa-edit"></span> EDIT PROFILE</a>
+					<div class="clearfix"></div>
+				</div>
+				<!--totale follower + add as buddy-->
+				<div class="fNav">
+					<!--link modal follower list-->
+					<a class="pull-left modalFollower" href="#"><img src="img/icon/follower_w.png" alt=""> 3</a>
+					<!--link modal buddy list-->
+					<a class="pull-right modalBuddy" href="#"><img src="img/icon/buddy_w.png" alt=""> 23</a>
+					<div class="clearfix"></div>
+				</div>
+				<!-- age + gender-->
+				<div class="fTitle">
+					<div class="pull-left">
+						24 years old
+					</div>
+					<div class="pull-right">
+						<!--female-->
+						<span class="fa fa-venus"></span>
+						<!--male-->
+						<!--<span class="fa fa-mars"></span>-->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<!--info city/state/country + position + website if available-->
+				<div class="fInfo">
+					<p><span>FROM: </span> Nettuno, Roma, Italy</p>
+					<p><span>POSITION: </span> goofy</p>
+					<p><span>WEBSITE:  </span> <a href="#" target="_blank">http://www.gilmore.com</a></p>
+				</div>
+				<!--main sport-->
+				<div class="fTitle">
+					Surf
+				</div>
+				<!--main sport info-->
+				<div class="fInfo">
+					<!--ability-->
+					<p><span>ABILITY: </span> beginner</p>
+					<p class="sep"></p>
+					<!--board brand-->
+					<p><span>BOARD BRAND: </span> marca</p>
+					<!--board lenght-->
+					<p><span>BOARD LENGHT: </span> 300 cm</p>
+					<p class="sep"></p>
+					<!--sponsor-->
+					<p><span>SPONSOR: </span></p>
+					<ul>
+						<li>sponsor 1</li>
+						<li>sponsor 2</li>
+					</ul>
+				</div>
+				<!--second sport-->
+				<div class="fTitle">
+					Windsurf
+				</div>
+				<!--second sport info-->
+				<div class="fInfo">
+					<!--ability-->
+					<p><span>ABILITY: </span> beginner</p>
+					<p class="sep"></p>
+					<!--board brand-->
+					<p><span>BOARD BRAND: </span> marca</p>
+					<!--board lenght-->
+					<p><span>BOARD LENGHT: </span> 300 cm</p>
+					<p class="sep"></p>
+					<!--sponsor-->
+					<p><span>SPONSOR: </span></p>
+					<ul>
+						<li>sponsor 1</li>
+						<li>sponsor 2</li>
+					</ul>
+				</div>
+				<!--club / school-->
+				<div class="fTitle">
+					Club/School
+				</div>
+				<!--club/school info-->
+				<div class="fInfo">
+					<!--school name-->
+					<p><span>NAME: </span> club/scholl name</p>
+					<p class="sep"></p>
+					<!--school address-->
+					<p><span>ADDRESS: </span></p>
+					<ul>
+						<li>Via.... 18</li>
+						<li>City</li>
+						<li>State</li>
+						<li>Country</li>
+					</ul>
+					<p class="sep"></p>
+					<!--school google map-->
+					<p class="text-right">
+						<a href="https://www.google.it/maps/@41.4612854,12.660188,15z" target="_blank"><span class="fa fa-map-marker"></span>View on Google map</a>
+					</p>
+				</div>
+			</div>
+			<!--end user info-->
+			<!--start banner-->
+			<div class="leftWidget banner mobHide">
+				<a href="#" target="_blank"><img src="img/demo/banner_440_440.jpg" alt="" class="img-responsive" /></a>
+			</div>
+			<!--end banner-->
+			<!--start banner-->
+			<div class="leftWidget banner mobHide">
+				<a href="#" target="_blank"><img src="img/demo/banner_440_440.jpg" alt="" class="img-responsive" /></a>
+			</div>
+			<!--end banner-->
+		</div>
+		<!--end left col-->
+		<!--start right col-->
+		<div class="col-md-9 col-sm-8">
+			<!--start cover photo-->
+			<div class="userCover">
+				<!--if no photo cover-->
+				<!--<div class="noCover">
+					<div class="addBox">
+						<a class="openBtn" role="button" data-toggle="collapse" data-target="#addCover" aria-expanded="false" aria-controls="addCover"><span class="fa fa-caret-down"></span>Add cover photo</a>
+						<div class="collapse" id="addCover">
+							<div class="innerCollapse">
+								<div class="col-sm-4">
+									<div id="myFile"><img src="img/load-photo.png" alt="" class="img-responsive" /></div>												
+									<input type="file" id="myInputFile" />						
+								</div>
+								<div class="col-sm-8">
+									<form>
+										<button class="myBtn" type="submit"><span class="fa fa-share-square-o"></span>Post</button>
+									</form>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>-->
+				<!--if photo cover-->
+				<img src="img/demo/img_big_1.jpg" alt="" class="img-responsive" />
+				<a href="#" class="modalConfirmDelete myBtnSml"><span class="fa fa-trash"></span> Delete</a>
+			</div>
+			<!--end cover photo-->
+			<!--start add photo/video-->
+			<div class="addBox">
+				<!--add photo-->
+				<a class="openBtn" role="button" data-toggle="collapse" data-target="#addPhoto" aria-expanded="false" aria-controls="addPhoto"><span class="fa fa-caret-down"></span>Add post</a>
+				<div class="collapse" id="addPhoto">
+					<div class="innerCollapse">
+						<div class="col-sm-4">
+							<!--to hide once item loaded-->
+							<div id="myFile"><img src="img/load-photo-video.png" alt="" class="img-responsive" /></div>
+							<!--to show once item loaded-->
+							<!--<div class="loadedItem">-->
+								<!--example loaded img-->
+								<!--<img src="img/demo/img_big.jpg" alt="" class="img-responsive" />-->	
+								<!--esempio video youtube-->
+								<!--<div class="embed-responsive  embed-responsive-16by9 mb30">
+									<iframe width="853" height="480" src="https://www.youtube.com/embed/MKWWhf8RAV8" frameborder="0" allowfullscreen></iframe>
+								</div>-->	
+								<!--esempio video vimeo-->
+								<!--<div class="embed-responsive  embed-responsive-16by9 mb30">
+									<iframe src="https://player.vimeo.com/video/50315573" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+								</div>-->	
+							<!--</div>-->													
+							<input type="file" id="myInputFile" />
+							<p class="label">Or add url to video Youtube/Vimeo</p>
+							<input type="text" class="form-control" placeholder="">							
+						</div>
+						<div class="col-sm-8">
+							<form>
+								<p class="label">Add comment</p>
+								<textarea></textarea>
+								<p class="label">Select sport</p>
+								<select data-placeholder="Select sport" class="tbrSelect form-control" name="" id="">
+									<option value="option1">Option 1</option>
+									<option value="option2">Option 2</option>
+									<option value="option3">Option 3</option>
+									<option value="option4">Option 4</option>
+								</select>
+								<div class="row">
+									<div class="col-sm-6">
+										<p class="label">Spot</p>
+										<input type="text" class="form-control" placeholder="">
+									</div>
+									<div class="col-sm-6">
+										<p class="label">Foto credit</p>
+										<input type="text" class="form-control" placeholder="">
+									</div>
+								</div>
+								<button class="myBtn" type="submit"><span class="fa fa-share-square-o"></span>Post</button>
+							</form>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<!--link to create album page-->
+				<a href="11_ALBUM_CREATE.html" class="createAlbumBtn"><span class="fa fa-photo"></span>Create album</a>
+			</div>
+			<!--end add photo/video-->
+			<!--start foto feed-->
+			<div class="feedTitleBar">
+				<div class="pull-left">
+					<span class="fa fa-star"></span> <span>Nome cognome Feed</span>
+				</div>
+			</div>
+			<!-- start visited profile feed sort by filter-->
+			<div class="feedFilter">
+				<a class="openBtn" role="button" data-toggle="collapse" data-target="#feedSort" aria-expanded="false" aria-controls="feedSort">Sort by<span class="fa fa-gear"></span></a>
+				<div class="collapse" id="feedSort">
+					<div class="innerCollapse">
+						<div class="col-sm-4">
+							<a class="openBtn" role="button" data-toggle="collapse" data-target="#sortDate" aria-expanded="true" aria-controls="sortDate">Date<span class="fa fa-gear"></span></a>
+							<div class="collapse" id="sortDate">
+								<div class="dataOrderLink">
+									<a href="#" data-sort-by="original-order">Default</a>
+									<a href="#"  data-sort-by="dataDate" data-option-value="false">Descending order</a>
+									<a href="#" data-sort-by="dataDate" data-option-value="true">Ascending order</a>
+								</div>
+							</div>							
+						</div>
+						<div class="col-sm-4">
+							<a class="openBtn" role="button" data-toggle="collapse" data-target="#sortShaka" aria-expanded="true" aria-controls="sortShaka">Shaka<span class="fa fa-gear"></span></a>
+							<div class="collapse" id="sortShaka">
+								<div class="dataOrderLink">
+									<a href="#" data-sort-by="original-order">Default</a>
+									<a href="#"  data-sort-by="dataShaka" data-option-value="false">Descending order</a>
+									<a href="#" data-sort-by="dataShaka" data-option-value="true">Ascending order</a>
+								</div>
+							</div>							
+						</div>
+						<div class="col-sm-4">
+							<a class="openBtn" role="button" data-toggle="collapse" data-target="#sortComment" aria-expanded="true" aria-controls="sortComment">Comment<span class="fa fa-gear"></span></a>
+							<div class="collapse" id="sortComment">
+								<div class="dataOrderLink">
+									<a href="#" data-sort-by="original-order">Default</a>
+									<a href="#"  data-sort-by="dataComment" data-option-value="false">Descending order</a>
+									<a href="#" data-sort-by="dataComment" data-option-value="true">Ascending order</a>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<!--end visited profile feed sort by filter-->
+			<!--start grid feed-->
+			<div class="grid">
+				<!--1. start example photo feed item con add shaka-->
+				<div class="grid-item photo male country1 sport2">
+					<div class="fItem photoItem">
+						<!--photo date / format-->
+						<div class="fDate">2016/03/28</div>
+						<!--post date - invisibile - yyyymmdd-->
+						<div class="dataDate dataHide">20160328</div>
+						<!--photo user - link to profile-->
+						<div class="fUser"><img alt="" src="img/demo/440_440.jpg"> <a href="08_PROFILE_VISITED.html">Nome cognome</a></div>
+						<!--photo description-->
+						<div class="fDesc">example photo feed item con add shaka</div>
+						<!--photo preview + photo sport-->
+						<div class="fImg banner">
+							<!--link modal preview photo-->
+							<a href="#" class="modalViewPhoto"><img src="img/demo/img_big_3.jpg" alt="" class="img-responsive" /></a>
+							<div class="fSport">Windsurf</div>
+						</div>
+						<!--photo spot/foto credit if available-->
+						<div class="fInfo">
+							<p><span>Spot:</span> Nettuno beach</p>
+							<p><span>Photo credit:</span> Nome fotografo</p>
+						</div>
+						<!--shaka nav-->
+						<div class="fNav">
+							<!--link modal shaka list-->
+							<a href="#" class="pull-left modalShaka"><img alt="" src="img/icon/shaka_g.png"> <span class="dataShaka">92</span></a>
+							<!--add shaka-->
+							<a href="#" class="pull-right">Add shaka</a>							
+							<div class="clearfix"></div>
+						</div>
+						<!--comment nav-->
+						<div class="fNav">
+							<!--link modal comment list-->
+							<a href="#" class="pull-left modalComment"><img alt="" src="img/icon/write_g.png"> <span class="dataComment">34</span></a>
+							<!--link modal comment list-->
+							<a href="#" class="pull-right modalComment">Add comment</a>
+							<div class="clearfix"></div>
+						</div>
+						<!--personal nav to edit photo-->
+						<div class="fNav fNavPerso">
+							<!--link modal confirm delete-->
+							<a href="#" class="pull-left modalConfirmDelete"><span class="fa fa-trash"></span> Delete</a>
+							<!--link modal edit photo-->
+							<a href="#" class="pull-right modalEditPhoto"><span class="fa fa-edit"></span>  Edit</a>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+				<!--end example photo feed item con add shaka-->
+				<!--2. start example photo feed item con remove shaka-->
+				<div class="grid-item photo female country2 sport1">
+					<div class="fItem photoItem">
+						<!--photo date-->
+						<div class="fDate">2016/04/23</div>
+						<!--post date - invisibile - yyyymmdd-->
+						<div class="dataDate dataHide">20160423</div>
+						<!--photo user - link to profile-->
+						<div class="fUser"><img alt="" src="img/demo/440_440.jpg"> <a href="08_PROFILE_VISITED.html">Nome cognome</a></div>
+						<!--photo description-->
+						<div class="fDesc">example photo feed item con remove shaka</div>
+						<!--photo preview + photo sport-->
+						<div class="fImg banner">
+							<!--link modal preview photo-->
+							<a href="#"  class="modalViewPhoto"><img src="img/demo/img_big_2.jpg" alt="" class="img-responsive" /></a>
+							<div class="fSport">Windsurf</div>
+						</div>
+						<!--photo spot/foto credit if available-->
+						<div class="fInfo">
+							<p><span>Spot:</span> Nettuno beach</p>
+							<p><span>Photo credit:</span> Nome fotografo</p>
+						</div>
+						<!--shaka nav-->
+						<div class="fNav">
+							<!--link modal shaka list-->
+							<a href="#" class="pull-left modalShaka"><img alt="" src="img/icon/shaka_g.png"> <span class="dataShaka">26</span></a>
+							<!--add shaka-->
+							<a href="#" class="pull-right">Add shaka</a>							
+							<div class="clearfix"></div>
+						</div>
+						<!--comment nav-->
+						<div class="fNav">
+							<!--link modal comment list-->
+							<a href="#" class="pull-left modalComment"><img alt="" src="img/icon/write_g.png"> <span class="dataComment">78</span></a>
+							<!--link modal comment list-->
+							<a href="#" class="pull-right modalComment">Add comment</a>
+							<div class="clearfix"></div>
+						</div>
+						<!--personal nav to edit photo-->
+						<div class="fNav fNavPerso">
+							<!--link modal confirm delete-->
+							<a href="#" class="pull-left modalConfirmDelete"><span class="fa fa-trash"></span> Delete</a>
+							<!--link modal edit photo-->
+							<a href="#" class="pull-right modalEditPhoto"><span class="fa fa-edit"></span>  Edit</a>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+				<!--end example photo feed item con remove shaka-->
+				<!--3. start example photo feed item - no info-->
+				<div class="grid-item photo male country2  sport3">
+					<div class="fItem photoItem">
+						<!--photo date-->
+						<div class="fDate">2016/07/16</div>
+						<!--post date - invisibile - yyyymmdd-->
+						<div class="dataDate dataHide">20160716</div>
+						<!--photo user - link to profile-->
+						<div class="fUser"><img alt="" src="img/demo/440_440.jpg"> <a href="08_PROFILE_VISITED.html">Nome cognome</a></div>
+						<!--photo description-->
+						<div class="fDesc">example GALLERY feed item - no spot/photo credit to show</div>
+						<!--photo preview + photo sport-->
+						<div class="fImg banner">
+							<!--link modal preview photo-->
+							<a href="#"  class="modalViewGallery"><img src="img/demo/img_big_1.jpg" alt="" class="img-responsive" /></a>
+							<div class="fSport">Windsurf</div>
+							<div class="totGallery">+ 15</div>
+						</div>
+						<!--photo spot/foto credit if available-->
+						<div class="fInfo">
+						</div>
+						<!--shaka nav-->
+						<div class="fNav">
+							<!--link modal shaka list-->
+							<a href="#" class="pull-left modalShaka"><img alt="" src="img/icon/shaka_g.png"> <span class="dataShaka">11</span></a>
+							<!--add shaka-->
+							<a href="#" class="pull-right">Add shaka</a>							
+							<div class="clearfix"></div>
+						</div>
+						<!--comment nav-->
+						<div class="fNav">
+							<!--link modal comment list-->
+							<a href="#" class="pull-left modalComment"><img alt="" src="img/icon/write_g.png"> <span class="dataComment">13</span></a>
+							<!--link modal comment list-->
+							<a href="#" class="pull-right modalComment">Add comment</a>
+							<div class="clearfix"></div>
+						</div>
+						<!--personal nav to edit photo-->
+						<div class="fNav fNavPerso">
+							<!--link modal confirm delete-->
+							<a href="#" class="pull-left modalConfirmDelete"><span class="fa fa-trash"></span> Delete</a>
+							<!--link modal edit photo-->
+							<a href="#" class="pull-right modalEditPhoto"><span class="fa fa-edit"></span>  Edit</a>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+				<!--end example photo feed item - no info-->
+				<!--4. start example photo feed item - personal photo con edit/delete-->
+				<div class="grid-item photo female country2 sport1">
+					<div class="fItem photoItem">
+						<!--photo date-->
+						<div class="fDate">2015/06/12</div>
+						<!--post date - invisibile - yyyymmdd-->
+						<div class="dataDate dataHide">20150612</div>
+						<!--photo user - link to profile-->
+						<div class="fUser"><img alt="" src="img/demo/440_440.jpg"> <a href="09_PROFILE_PERSONAL.html">Mio Nome cognome</a></div>
+						<!--photo description-->
+						<div class="fDesc">example photo feed item - personal photo con edit/delete</div>
+						<!--photo preview + photo sport-->
+						<div class="fImg banner">
+							<!--link modal preview photo-->
+							<a href="#"  class="modalViewPersonalPhoto"><img src="img/demo/img_big_2.jpg" alt="" class="img-responsive" /></a>
+							<div class="fSport">Windsurf</div>
+						</div>
+						<!--photo spot/foto credit if available-->
+						<div class="fInfo">
+							<p><span>Spot:</span> Nettuno beach</p>
+							<p><span>Photo credit:</span> Nome fotografo</p>
+						</div>
+						<!--shaka nav-->
+						<div class="fNav">
+							<!--link modal shaka list-->
+							<a href="#" class="pull-left modalShaka"><img alt="" src="img/icon/shaka_g.png"> <span class="dataShaka">78</span></a>
+							<!--add shaka-->
+							<a href="#" class="pull-right">Add shaka</a>							
+							<div class="clearfix"></div>
+						</div>
+						<!--comment nav-->
+						<div class="fNav">
+							<!--link modal comment list-->
+							<a href="#" class="pull-left modalComment"><img alt="" src="img/icon/write_g.png"> <span class="dataComment">88</span></a>
+							<!--link modal comment list-->
+							<a href="#" class="pull-right modalComment">Add comment</a>
+							<div class="clearfix"></div>
+						</div>
+						<!--personal nav to edit photo-->
+						<div class="fNav fNavPerso">
+							<!--link modal confirm delete-->
+							<a href="#" class="pull-left modalConfirmDelete"><span class="fa fa-trash"></span> Delete</a>
+							<!--link modal edit photo-->
+							<a href="#" class="pull-right modalEditPhoto"><span class="fa fa-edit"></span>  Edit</a>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+				<!--end example photo feed item - personal photo con edit/delete-->
+				<!--5. start example video photo item con add shaka-->
+				<div class="grid-item video male country1 sport3">
+					<div class="fItem photoItem">
+						<!--photo date-->
+						<div class="fDate">2016/04/28</div>
+						<!--post date - invisibile - yyyymmdd-->
+						<div class="dataDate dataHide">20160428</div>
+						<!--photo user - link to profile-->
+						<div class="fUser"><img alt="" src="img/demo/440_440.jpg"> <a href="08_PROFILE_VISITED.html">Nome cognome</a></div>
+						<!--photo description-->
+						<div class="fDesc">example VIDEO feed item con add shaka</div>
+						<!--photo preview + photo sport-->
+						<div class="fImg banner">
+							<!--link modal preview photo-->
+							<a href="#"  class="modalViewVideo"><img src="img/demo/img_big_3.jpg" alt="" class="img-responsive" /></a>
+							<div class="fSport">Windsurf</div>
+						</div>
+						<!--photo spot/foto credit if available-->
+						<div class="fInfo">
+							<p><span>Spot:</span> Nettuno beach</p>
+							<p><span>Photo credit:</span> Nome fotografo</p>
+						</div>
+						<!--shaka nav-->
+						<div class="fNav">
+							<!--link modal shaka list-->
+							<a href="#" class="pull-left modalShaka"><img alt="" src="img/icon/shaka_g.png"> <span class="dataShaka">11</span></a>
+							<!--add shaka-->
+							<a href="#" class="pull-right">Add shaka</a>							
+							<div class="clearfix"></div>
+						</div>
+						<!--comment nav-->
+						<div class="fNav">
+							<!--link modal comment list-->
+							<a href="#" class="pull-left modalComment"><img alt="" src="img/icon/write_g.png"> <span class="dataComment">8</span></a>
+							<!--link modal comment list-->
+							<a href="#" class="pull-right modalComment">Add comment</a>
+							<div class="clearfix"></div>
+						</div>
+						<!--personal nav to edit photo-->
+						<div class="fNav fNavPerso">
+							<!--link modal confirm delete-->
+							<a href="#" class="pull-left modalConfirmDelete"><span class="fa fa-trash"></span> Delete</a>
+							<!--link modal edit photo-->
+							<a href="#" class="pull-right modalEditPhoto"><span class="fa fa-edit"></span>  Edit</a>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+				<!--end example photo feed item con add shaka-->
+			</div>
+			<!--end grid feed-->
+			<!--start load more-->
+			<div class="loadMore">
+				<a href="#" class="myBtn"><span class="fa fa-spinner"></span> LOAD MORE</a>
+			</div>
+			<!--end load more-->
+		</div>
+		<!--end right col-->
+	</div>
+</div>
+<!--end main content-->
+<!--start pre footer-->
+<div class="preFooter">
+	<div class="container">
+		<div class="col-md-2 col-sm-4 col-xs-6 banner"><a href="#" target="_blank"><img src="img/demo/banner_440_440.jpg" alt="" class="img-responsive" /></a></div>
+		<div class="col-md-2 col-sm-4 col-xs-6 banner"><a href="#" target="_blank"><img src="img/demo/banner_440_440.jpg" alt="" class="img-responsive" /></a></div>
+		<div class="col-md-2 col-sm-4 col-xs-6 banner"><a href="#" target="_blank"><img src="img/demo/banner_440_440.jpg" alt="" class="img-responsive" /></a></div>
+		<div class="col-md-2 col-sm-4 col-xs-6 banner"><a href="#" target="_blank"><img src="img/demo/banner_440_440.jpg" alt="" class="img-responsive" /></a></div>
+		<div class="col-md-2 col-sm-4 col-xs-6 banner"><a href="#" target="_blank"><img src="img/demo/banner_440_440.jpg" alt="" class="img-responsive" /></a></div>
+		<div class="col-md-2 col-sm-4 col-xs-6 banner"><a href="EXTRA.html"><img src="img/advertise-with-us.png" alt="" class="img-responsive" /></a></div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!--end pre footer-->
+<!--start footer-->
+<div class="footer">
+	<div class="container">
+		<div class="footerLogo"><a href="http://www.theboardriders.com/"><img src="img/logo.png" alt="" /></a></div>
+		<div class="footerMenu"><a href="EXTRA.html">F.A.Q.</a> <span class="fa fa-circle"></span> <a href="EXTRA.html">ASSISTANCE</a> <span class="fa fa-circle"></span> <a href="EXTRA.html">ADVERTISE WITH US</a></div>
+	</div>
+</div>
+<!--end footer-->
+<!--start copyright-->
+<div class="copyright">
+	<div class="container">
+		Copyright topboardriders.com | <a href="#" class="modalPrivacy">Privacy law</a> | <a href="#" class="modalCookie">Cookie law</a> | <a href="#" class="modalTerms">Terms and conditions</a>
+	</div>
+</div>
+<!--end copyright-->
+<!--core js-->
+<script src="js/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/eModal.js"></script>
+<script src="js/eScroll.js"></script>
+<script src="js/select2.min.js"></script>
+<script src="js/imagesloaded.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/main.js"></script>
+<script>
+var $grid = $('.grid').imagesLoaded( function() {
+	$grid.isotope({
+		itemSelector: '.grid-item',
+		getSortData: {
+			dataShaka: '.dataShaka parseInt',
+			dataDate: '.dataDate parseInt',
+			dataComment: '.dataComment parseInt'
+		}
+	});
+});
+$('.dataFilterLink a').click(function(){
+	var selector = $(this).attr('data-filter');
+	$grid.isotope({ filter: selector });
+	return false;
+});
+$('.dataOrderLink a').click(function(){
+	var sortByValue = $(this).attr('data-sort-by');
+	var order = $(this).attr('data-option-value');
+	var valAscending = (order == "true");
+	$grid.isotope({
+		sortBy: sortByValue,
+		sortAscending : valAscending
+	});	
+	return false;
+});
+</script>
+</body>
+</html>
